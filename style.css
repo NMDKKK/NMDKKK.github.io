@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,500 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,500 & family= Playfair+Display+SC:wght@700 & display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("img/ki.jpeg");
+  background-size: 1500px;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid blue;
+}
+nav h1 {
+  color: blue;
+  font-family: "verdana";
+  font-size: 30px;
+}
+nav .onglets {
+  margin-top: 5px;
+  margin-left: 285px;
+}
+nav .onglets a {
+  text-decoration: none;
+  color: darkblue;
+  margin-right: 10px;
+  border-bottom: 1px solid blue;
+  padding-bottom: 4px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("ki.jpeg");
+  background-size: cover;
+  color: rgb(12, 11, 11);
+  padding: 40px;
+}
+
+header h1 {
+  font-family: "verdana";
+  font-size: 50px;
+}
+header h4 {
+  margin-top: -18px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+header button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  font-family: montserrat, sans-serif, Geneva, Tahoma, sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+.main {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .content .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main .content .card .left {
+  flex: 0 0 30%;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
+
+.main .content .card.right {
+  flex: 0 0 70%;
+}
+
+.main .content .card .right img {
+  height: 300px;
+  width: 700px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 5px solid blue;
+  background-color: darkturquoise;
+}
+@media screen and (max-width: 680px) {
+  nav .onglets {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  background-color: rgba(31, 221, 235, 0.829);
+  color: #fffae1;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
